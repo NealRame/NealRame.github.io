@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neal.Rame.</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="NealRame&#x27;s site">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,300" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:700" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:900" type="text/css">
+<link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.js"></script>
+</head>
+<body>
+	<div id="site-menu-wrapper" data-sticky-container>
+		<div
+			class="top-bar"
+			data-sticky-on="small"
+			data-top-anchor="1"
+			data-sticky
+			data-options="marginTop:0;">
+			<div class="title-bar" data-responsive-toggle="site-nav" data-hide-for="medium">
+				MENU<a data-toggle><i class="fa fa-bars"></i></a>
+			</div>
+			<div id="site-nav" class="menu-centered">
+				<ul
+					class="vertical medium-horizontal menu"
+						data-magellan
+					>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="splash" data-magellan>
+		<div id="intro-text">
+			<h1>Neal.Rame.</h1>
+			<p>Developer, rock climber and dogs lover!</p>
+		</div>
+		<div id="page-scroll">
+			<a href="#blog">
+				<span class="fa-stack fa-2x">
+					<i class="fa fa-circle-thin fa-stack-2x"></i>
+					<i class="fa fa-angle-double-down fa-stack-1x"></i>
+				</span>
+			</a>
+		</div>
+	</div>
+	<section id="blog" data-magellan-target="blog">
+		<div class="row columns">
+				<article>
+					<header>
+						<div class="meta-icon"><i class="fallback-icon"></i></div>
+						<h2><a href="/posts/hello-world">Hello world !</a></h2>
+						<div class="meta-date">
+					Apr 17, 2016
+				</div>
+				 - <div class="meta-comments">
+					<a href="/posts/hello-world#disqus_thread">Comments</a>
+				</div>
+				
+					</header>
+					<div class="resume">
+						<p>This is a the first article of my very first blog! So welcome!</p>
+					</div>
+					<div class="more"><a href="/posts/hello-world">Read more ...</a></div>
+				</article>
+			<p class="text-center">
+				You can find all the blog posts<br><a href="/blog/1" class="button circle" href="#">here</a>
+			</p>
+		</div>
+	</section>
+	<section id="about" data-magellan-target="about">
+		<header><h1>About</h1></header>
+		<div class="row columns">
+			<div id="portrait">
+				<img src="/assets/pictures/me.jpg">
+			</div>
+			<p>
+				My name is Julien Graziano, a.k.a NealRame or simply Jux for my
+				friends. I live in Lille in the north of France with my
+				wonderful girlfriend.
+			</p>
+			<p>
+				I am developer and enthusiast for technologies of information,
+				particularly web applications and internet of things.
+			</p>
+			<p>
+				I've been working as a developper since 2005. I build
+				application with C++, Javascript, HTML and CSS.
+			</p>
+			<p>
+				I am very interested by functional programming techniques and
+				software architecture.
+			</p>
+			<p>
+				When I do not code, I really enjoy climbing, street workout,
+				play and take long walks with my dog. I also like taking
+				pictures of my trips and rambles.
+			</p>
+			<p>
+				You can check out my cv <a href="/pages/cv">here</a>.
+			</p>
+		</div>
+	</section>
+	<section id="contact" data-magellan-target="contact">
+		<header><h1>Contact</h1></header>
+		<div class="row column">
+			<p>
+				If you have a question about the site or about its content, please, feel
+				free to ask by using the form below.
+			</p>
+			<form>
+				<div id="form-message-wrapper" class="row columns"></div>
+				<input type="hidden" name="redirect_to" value="http://nealrame.com"/>
+				<div class="row columns">
+					<div id="name" class="input">
+						<label for="input-name"><i class="fa fa-user"></i></label>
+						<input id="input-name" type="text" placeholder="your name..."/>
+					</div>
+				</div>
+				<div class="row columns">
+					<div id="email" class="input">
+						<label for="input-email"><i class="fa fa-envelope"></i></label>
+						<input id="input-email" type="email" placeholder="your email..."/>
+					</div>
+				</div>
+				<div class="row columns">
+					<div id="message" class="input">
+						<textarea placeholder="your message..." rows="5"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="small-4 small-centered columns">
+						<button id="submit" type="button" class="expanded button"><i class="fa fa-paper-plane"></i></button>
+					</div>
+				</div>
+			</form>
+			<p>
+				You can also contact me on social networks using the links
+				below.
+			</p>
+		</div>
+	</section>
+<footer>
+	<ul id="social-networks">
+			<li><a href="https://github.com/NealRame"><i class="fa fa-github-square"></i></a></li>
+			<li><a href="https://www.facebook.com/NealRame"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="https://twitter.com/NealRame"><i class="fa fa-twitter-square"></i></a></li>
+		<li><a href="http://nealrame.com/rss.xml"><i class="fa fa-rss-square"></i></a></li>
+	</ul>
+	<ul id="terms">
+		<li>© 2016 <a href="http://nealrame.com">NealRame</a></li>
+		<li><a href="/pages/terms">Terms and conditions</a></li>
+		<li><a href="/#contact">Contact</a></li>
+	</ul>
+	Designed and coded by <a href="https://github.com/NealRame">Neal.Rame.</a>
+	<br>
+	Source code available on <a href="https://github.com/NealRame/CV">GitHub</a>.
+	<br>
+	All photos were taken by <a href="https://github.com/NealRame">Neal.Rame.</a>
+</footer>
+<script src="/assets/js/applets/google-analytics.js"></script>
+<script src="/assets/js/applets/sticky-footer.js"></script>
+<script src="/assets/js/applets/contact.js"></script>
+<script src="/assets/js/applets/splash.js"></script>
+<script src="/assets/js/app.js"></script>
+</body>
+</html>
